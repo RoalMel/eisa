@@ -1,0 +1,29 @@
+.logo2{
+
+    width: 35%;
+    max-width: 1350px;
+ 
+ margin:0 auto;
+ overflow: hidden;
+ }
+
+ .mainindex{
+    background-color: white;
+        width: 100%;
+        margin-top: -4%;
+        padding: 20px;
+        float: left;
+        
+        box-sizing: border-box;
+    
+    }
+
+    @media screen and (max-width: 767px ){
+
+.logo2{
+
+    width:70% ;
+}
+
+    }
+

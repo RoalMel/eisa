@@ -1,0 +1,325 @@
+.vertodo{
+
+    background-color: rgb(224, 240, 240);
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  /*  height: 50px; */
+  border: 2px solid rgb(12, 97, 167);
+  border-radius: 20px;
+  
+  overflow: hidden;
+
+}
+
+/* Clases de vercontenedor1*/
+
+.vercontenedor1{
+
+    background-color: rgb(224, 240, 240);
+}
+.verletra1{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 35%;
+    font-weight: 605; 
+    margin-left: 3%;
+}
+
+.verletra2{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 10%;
+    font-weight: 605; 
+    margin-left: 1%;
+}
+
+
+/*Clases de vercontenedor2*/
+.vercontenedor2{
+
+    background-color: rgb(224, 240, 240);
+}
+
+/*Clases de vercontenedor3*/
+.vercontenedor3{
+
+    background-color: rgb(224, 240, 240);
+    
+}
+
+.vercontenedor31{
+
+background-color: rgb(57, 178, 199);
+max-width: 98%;
+margin-left: auto;
+margin-right: auto;
+border: 1.5px solid rgb(12, 97, 167);
+border-radius: 10px; 
+
+
+}
+
+.verletra{
+
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 10%;
+    font-weight: 605; 
+    margin-left: 2%;
+    
+}
+
+.vercuadrodedialogo{
+
+    font-size: 15px;
+    color:rgb(0, 8, 12);
+   background: white;
+ 
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+    width: 34%; 
+    margin-left:  1%;
+}
+
+.vercuadrodedialogo1{
+
+    font-size: 15px;
+    color:rgb(12, 0, 1);
+   background: white;
+ 
+    border: 3.5px double rgb(12, 97, 167);
+    font-weight: 605;
+    width: 92%; 
+    margin-left: 2%;
+}
+
+/*contenedor 3 segundo*/
+
+.verletra3{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 15%;
+    font-weight: 605; 
+    margin-left: 2%;
+
+}
+
+.verletra4{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 35%;
+    font-weight: 605; 
+    margin-left: 1%;
+
+}
+
+.verletra5{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 25%;
+    font-weight: 605; 
+    margin-left: 1%;
+
+}
+
+.verletra6{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 15%;
+    font-weight: 605; 
+    margin-left: 2%;
+
+}
+
+.verletra7{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 61%;
+    font-weight: 605; 
+    margin-left: 1%;
+
+}
+
+/*
+
+@media screen and (max-width: 760px ) {
+
+    .verletra3{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 15%;
+        font-weight: 605; 
+        margin-left: 2%;
+    
+    }
+    
+    .verletra4{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 50%;
+        font-weight: 605; 
+        margin-left: 1%;
+    
+    }
+    
+    .verletra5{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 25%;
+        font-weight: 605; 
+        margin-left: 1%;
+    
+    }
+    
+    .verletra6{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 15%;
+        font-weight: 605; 
+        margin-left: 2%;
+    
+    }
+    .verletra7{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 50%;
+        font-weight: 605; 
+        margin-left: 1%;
+    
+    }
+    
+
+}  */
+
+@media screen and (max-width: 1190px ) {
+
+    .verletra3{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 18%;
+        font-weight: 605; 
+        margin-left: 2%;
+    
+    }
+    
+    .verletra4{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 38%;
+        font-weight: 605; 
+        margin-left: 1%;
+    
+    }
+    
+    .verletra5{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 38%;
+        font-weight: 605; 
+        margin-left: 1%;
+    
+    }
+    
+    .verletra6{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 18%;
+        font-weight: 605; 
+        margin-left: 2%;
+    
+    }
+    
+    .verletra7{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 77%;
+        font-weight: 605; 
+        margin-left: 1%;
+    
+    }
+
+}
+
+@media screen and (max-width: 350px ) {
+
+    .verletra3{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 22%;
+        font-weight: 605; 
+        margin-left: 2%;
+    
+    }
+    
+    .verletra4{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 64%;
+        font-weight: 605; 
+        margin-left: 1%;
+    
+    }
+    
+    .verletra5{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 41%;
+        font-weight: 605; 
+        margin-left: 48%;
+    
+    }
+    
+    .verletra6{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 22%;
+        font-weight: 605; 
+        margin-left: 2%;
+    
+    }
+
+    .verletra7{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 64%;
+        font-weight: 605; 
+        margin-left: 1%;
+    
+    }
+
+}
+
+/*Clases de vercontenedor4*/
+.vercontenedor4{
+
+    background-color: rgb(224, 240, 240);
+}
+
+
+
+
+

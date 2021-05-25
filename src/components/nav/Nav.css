@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header  {
+    background-color: rgb(205, 217, 230);
+    width: 100%;
+  
+}
+header nav {
+
+    width: 90%;
+    max-width: 1000;
+    margin: 20px auto;
+    background-color: #f7a951
+
+}
+.menu {
+
+    display: none;
+}
+
+.btn21{
+
+    color: black;
+}
+
+.btn22{
+
+    display: none;
+}
+
+header nav ul{
+
+    overflow: hidden;
+list-style: none;
+
+
+
+}
+header nav ul li {
+
+    float: left;
+}
+
+header nav ul li a {
+
+color: black;
+padding: 20px;
+display: block;
+text-decoration: none;
+
+
+}
+
+header nav ul li a:hover {
+
+background: #ec8b3c;
+}
+
+@media screen and (max-width: 800px) {
+
+header nav {
+
+    width: 70%;
+    height: 100%;
+    left: 100% ;
+    margin: 0;
+    position: fixed;
+}
+
+
+header nav ul li {
+
+display: block;
+float: none;
+border-bottom:1px solid orchid;
+
+}
+
+.menu{
+    display: block;
+    width: 100%;
+    background: orchid;
+}
+
+.btn21 {
+
+   display: block;
+    padding: 20px;
+    background: palegreen;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+  box-sizing: border-box;
+
+}
+
+.btn22 {
+
+    float: right;
+    font-size: 30px;
+    display: block;
+    width: 10%;
+    background: rgb(179, 118, 112);
+}
+
+
+
+}
+
+
+
+#menulista #desplegar{
+    display: none;
+    position: absolute;
+    min-width: 151px;
+ }
+ #menulista #item:hover #desplegar{
+    display: block;
+ }
+
+
+
+
+
+
+
+
