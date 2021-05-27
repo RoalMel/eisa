@@ -52,8 +52,8 @@ export default function App() {
           <a class="nav-link" href="/a">Estado</a>
 
           <ul id="desplegar">
-            <li><a href="">Agegar pago</a></li>
-            <li><a href="">Pendientes de cobro</a></li>
+            <li><a href="/a">Agegar pago</a></li>
+            <li><a href="/a">Pendientes de cobro</a></li>
             <li><a href="/a">Cotizaciónes Aplicadas</a></li>
             <li><a href="/a">General por Cliente</a></li>
           </ul>
@@ -64,39 +64,39 @@ export default function App() {
           <a class="nav-link" href="/a">Clientes</a>
 
           <ul id="desplegar">
-            <li><a href="">Ver lista de clientes</a></li>
-            <li><a href="">Agregar nuevo cliente</a></li>
-            <li><a href="">Editar cliente</a></li>
-            <li><a href="">Eliminar Cliente</a></li>
+            <li><a href="/a">Ver lista de clientes</a></li>
+            <li><a href="/a">Agregar nuevo cliente</a></li>
+            <li><a href="/a">Editar cliente</a></li>
+            <li><a href="/a">Eliminar Cliente</a></li>
           </ul>
         </li>
         <li id="item" class="nav-item active">
           <a class="nav-link" href="/a">Caja</a>
 
           <ul id="desplegar">
-            <li><a href="">Apertura de turno</a></li>
-            <li><a href="">Cierre de turno</a></li>
-            <li><a href="">Caja</a></li>
-            <li><a href="">Reporte de Ventas</a></li>
-            <li><a href="">Cierre de caja</a></li>
+            <li><a href="/a">Apertura de turno</a></li>
+            <li><a href="/a">Cierre de turno</a></li>
+            <li><a href="/a">Caja</a></li>
+            <li><a href="/a">Reporte de Ventas</a></li>
+            <li><a href="/a">Cierre de caja</a></li>
           </ul>
         </li>
         <li id="item" class="nav-item active">
           <a class="nav-link" href="/a">Facturas</a>
 
           <ul id="desplegar">
-            <li><a href="">Series de Facturas</a></li>
-            <li><a href="">Datos de Facturación</a></li>
-            <li><a href="">Facturas</a></li>
+            <li><a href="/a">Series de Facturas</a></li>
+            <li><a href="/a">Datos de Facturación</a></li>
+            <li><a href="/a">Facturas</a></li>
 
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="">Gastos</a>
+          <a class="nav-link" href="/a">Gastos</a>
 
           <ul id="desplegar">
-            <li><a href="">Gastos Generales</a></li>
-            <li><a href="">Gastos por orden de trabajo</a></li>
+            <li><a href="/a">Gastos Generales</a></li>
+            <li><a href="/a">Gastos por orden de trabajo</a></li>
 
           </ul>
         </li>
@@ -104,10 +104,10 @@ export default function App() {
           <a class="nav-link" href="/a">Resumen</a>
 
           <ul id="desplegar">
-            <li><a href="">Ingresar pagos por orden de trabajo</a></li>
-            <li><a href="">Ingresar gastos por orden de trabajo </a></li>
-            <li><a href="">Ver ordenes de trabajo</a></li>
-            <li><a href="">Ver Cotizaciones</a></li>
+            <li><a href="/a">Ingresar pagos por orden de trabajo</a></li>
+            <li><a href="/a">Ingresar gastos por orden de trabajo </a></li>
+            <li><a href="/a">Ver ordenes de trabajo</a></li>
+            <li><a href="/a">Ver Cotizaciones</a></li>
           </ul>
         </li>
 
@@ -115,9 +115,9 @@ export default function App() {
           <a class="nav-link" href="/a">Productos</a>
 
           <ul id="desplegar">
-            <li><a href="">Productos</a></li>
-            <li><a href="">Precios </a></li>
-            <li><a href="">Ventas de Productos</a></li>
+            <li><a href="/a">Productos</a></li>
+            <li><a href="/a">Precios </a></li>
+            <li><a href="/a">Ventas de Productos</a></li>
 
           </ul>
         </li>
@@ -126,9 +126,9 @@ export default function App() {
           <a class="nav-link" href="/a">RG</a>
 
           <ul id="desplegar">
-            <li><a href="">Ver Resumen</a></li>
-            <li><a href="">Otros Ingresos </a></li>
-            <li><a href="">Otros Gastos</a></li>
+            <li><a href="/a">Ver Resumen</a></li>
+            <li><a href="/a">Otros Ingresos </a></li>
+            <li><a href="/a">Otros Gastos</a></li>
 
           </ul>
         </li>
