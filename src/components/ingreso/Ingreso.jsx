@@ -1,6 +1,6 @@
 import React from 'react'
 import './Ingreso.css'
-import $ from 'jquery';
+
 
 const Ingreso = () => {
 
@@ -20,7 +20,7 @@ const Ingreso = () => {
           <input type="number" className="cotizacion1" id="cotizacion"></input>
           <label for="Habilitado" id="Habilitado1">Habilitado </label>
           <input type="checkbox" id="Habilitado"></input>
-          <br></br>
+          <br />
 
           <label for="fecha" className="letra">Fecha</label>
           <input type="datetime" id="fecha" className="cuadrodedialogofecha"></input>
@@ -41,7 +41,7 @@ const Ingreso = () => {
         <div className='col-sm-12 col-md-10 col-xl-8 contenedor3'>
 
           <label for="cliente" className="letra">Cliente</label>
-          <input type="text" id="cliente" placeholder="Nombre del cliente "></input> <br></br>
+          <input type="text" id="cliente" placeholder="Nombre del cliente "></input> <br />
 
           <label for="tipodecliente" className="letracotizacion">Tipo Clien</label>
           <select name="" className="cuadrodedialogo" id="tipoCliente">
@@ -54,10 +54,10 @@ const Ingreso = () => {
             <option value="Especial">Especial</option>
             <option value="Normal">Normal</option>
             <option value="Personalizado">Personalizado</option>
-          </select> <br></br>
+          </select> <br />
 
           <label for="cotizacion2" className="letracotizacion">Cotización</label>
-          <input type="text" id="cotizacion2" placeholder="Nombre de la cotización"></input> <br></br>
+          <input type="text" id="cotizacion2" placeholder="Nombre de la cotización"></input> <br />
 
 
 
@@ -96,7 +96,7 @@ const Ingreso = () => {
           <label for="Largo" className="letrame1" id="largo1">Largo Mts.</label>
           <input type="decimal" className="letram" id="Largo"></input>
           <label for="Cantidad" className="letracant">Cant.</label>
-          <input type="integer" className="letram" id="Cantidad"></input><br></br>
+          <input type="integer" className="letram" id="Cantidad"></input><br />
 
 
         </div>

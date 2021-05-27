@@ -10,12 +10,12 @@ const Vercot = () => {
       <div className='row'>
 
         <div className='col-sm-12 col-md-8 col-xl-6 vercontenedor1' >
-          <br></br>
+        <br />
           <label for="" id="vercotizaciones" className="verletra1">En Proceso</label>
           
           <label for="" id="vercotizaciones" className="verletra1">A Cotizacion</label>
-          <button type="button" className="verletra2"><a href="GenerarOrden.html">Ir</a></button>
-          <br></br>
+          <button type="button" className="verletra2"><a href="/a">Ir</a></button>
+          <br />
         </div>
 
         <div className='col-sm-12 col-md-4 col-xl-6 vercontenedor2'>
@@ -30,7 +30,7 @@ const Vercot = () => {
             <label for="Fecha" id="margen" className="verletra">Del</label>
             <input type="datetime" className="vercuadrodedialogo" id="Fecha" ></input>
             <label for="calendario" className="verletra" id="calendario">al</label>
-            <input type="datetime" className="vercuadrodedialogo" name="month" ></input> <br></br>
+            <input type="datetime" className="vercuadrodedialogo" name="month" ></input> <br />
             <input type="text" className="vercuadrodedialogo1 " placeholder="Nombre del cliente" id="ver_nombre" ></input>
           </div>
 
@@ -44,7 +44,7 @@ const Vercot = () => {
 
             <button type="button" className="verletra3" id="filtro">Filtrar</button>
             
-            <button type="button" className="verletra5" id="mostrar" >Mostrar Todo</button> <br></br>
+            <button type="button" className="verletra5" id="mostrar" >Mostrar Todo</button> <br />
 
             <button type="button" className="verletra6" id="ver_buscar">Buscar</button>
            
