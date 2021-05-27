@@ -49,7 +49,7 @@ export default function App() {
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="Estado.html">Estado</a>
+          <a class="nav-link" href="#">Estado</a>
 
           <ul id="desplegar">
             <li><a href="">Agegar pago</a></li>
@@ -101,7 +101,7 @@ export default function App() {
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="Resumen.html">Resumen</a>
+          <a class="nav-link" href="#">Resumen</a>
 
           <ul id="desplegar">
             <li><a href="">Ingresar pagos por orden de trabajo</a></li>
@@ -112,7 +112,7 @@ export default function App() {
         </li>
 
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="Productos.html">Productos</a>
+          <a class="nav-link" href="#">Productos</a>
 
           <ul id="desplegar">
             <li><a href="">Productos</a></li>
