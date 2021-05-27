@@ -32,36 +32,36 @@ export default function App() {
 
           <ul id="desplegar">
             <li><Link to="/vercot">Ver Cotizaciónes</Link></li>
-            <li><a href="#">Anular Cotización</a></li>
+            <li><a href="/a">Anular Cotización</a></li>
           </ul>
 
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="#">Ordenes de Trabajo</a>
+          <a class="nav-link" href="/a">Ordenes de Trabajo</a>
 
           <ul id="desplegar">
             <li><Link to="/enproceso">En Proceso</Link></li>
-            <li><a href="#">Finalizadas</a></li>
-            <li><a href="#">Anuladas</a></li>
-            <li><a href="#">Todas</a></li>
-            <li><a href="#">Generar nueva orden</a></li>
+            <li><a href="/a">Finalizadas</a></li>
+            <li><a href="/a">Anuladas</a></li>
+            <li><a href="/a">Todas</a></li>
+            <li><a href="/a">Generar nueva orden</a></li>
 
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="#">Estado</a>
+          <a class="nav-link" href="/a">Estado</a>
 
           <ul id="desplegar">
             <li><a href="">Agegar pago</a></li>
             <li><a href="">Pendientes de cobro</a></li>
-            <li><a href="#">Cotizaciónes Aplicadas</a></li>
-            <li><a href="#">General por Cliente</a></li>
+            <li><a href="/a">Cotizaciónes Aplicadas</a></li>
+            <li><a href="/a">General por Cliente</a></li>
           </ul>
         </li>
         
 
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="#">Clientes</a>
+          <a class="nav-link" href="/a">Clientes</a>
 
           <ul id="desplegar">
             <li><a href="">Ver lista de clientes</a></li>
@@ -71,7 +71,7 @@ export default function App() {
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="#">Caja</a>
+          <a class="nav-link" href="/a">Caja</a>
 
           <ul id="desplegar">
             <li><a href="">Apertura de turno</a></li>
@@ -82,7 +82,7 @@ export default function App() {
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="#">Facturas</a>
+          <a class="nav-link" href="/a">Facturas</a>
 
           <ul id="desplegar">
             <li><a href="">Series de Facturas</a></li>
@@ -101,7 +101,7 @@ export default function App() {
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="#">Resumen</a>
+          <a class="nav-link" href="/a">Resumen</a>
 
           <ul id="desplegar">
             <li><a href="">Ingresar pagos por orden de trabajo</a></li>
@@ -112,7 +112,7 @@ export default function App() {
         </li>
 
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link" href="/a">Productos</a>
 
           <ul id="desplegar">
             <li><a href="">Productos</a></li>
@@ -123,7 +123,7 @@ export default function App() {
         </li>
 
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="#">RG</a>
+          <a class="nav-link" href="/a">RG</a>
 
           <ul id="desplegar">
             <li><a href="">Ver Resumen</a></li>
@@ -134,11 +134,11 @@ export default function App() {
         </li>
 
         <li class="nav-item active">
-          <a class="nav-link" href="#">Configuración</a>
+          <a class="nav-link" href="/a">Configuración</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Configuración 2</a>
+          <a class="nav-link disabled" href="/a" tabindex="-1" aria-disabled="true">Configuración 2</a>
         </li>
       </ul>
     </div>
