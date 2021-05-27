@@ -32,19 +32,19 @@ export default function App() {
 
           <ul id="desplegar">
             <li><Link to="/vercot">Ver Cotizaciónes</Link></li>
-            <li><a href="">Anular Cotización</a></li>
+            <li><a href="#">Anular Cotización</a></li>
           </ul>
 
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="Ordenesdetrabajo1.html">Ordenes de Trabajo</a>
+          <a class="nav-link" href="#">Ordenes de Trabajo</a>
 
           <ul id="desplegar">
             <li><Link to="/enproceso">En Proceso</Link></li>
-            <li><a href="../Practica/Ordenesdetrabajo/Finalizadas.html">Finalizadas</a></li>
-            <li><a href="../Practica/Ordenesdetrabajo/Anuladas1.html">Anuladas</a></li>
-            <li><a href="../Practica/Ordenesdetrabajo/Todas.html">Todas</a></li>
-            <li><a href="GenerarOrden.html">Generar nueva orden</a></li>
+            <li><a href="#">Finalizadas</a></li>
+            <li><a href="#">Anuladas</a></li>
+            <li><a href="#">Todas</a></li>
+            <li><a href="#">Generar nueva orden</a></li>
 
           </ul>
         </li>
@@ -54,14 +54,14 @@ export default function App() {
           <ul id="desplegar">
             <li><a href="">Agegar pago</a></li>
             <li><a href="">Pendientes de cobro</a></li>
-            <li><a href="cotizacionesaplicadas.html">Cotizaciónes Aplicadas</a></li>
-            <li><a href="generalporcliente.html">General por Cliente</a></li>
+            <li><a href="#">Cotizaciónes Aplicadas</a></li>
+            <li><a href="#">General por Cliente</a></li>
           </ul>
         </li>
         
 
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="Clientes.html">Clientes</a>
+          <a class="nav-link" href="#">Clientes</a>
 
           <ul id="desplegar">
             <li><a href="">Ver lista de clientes</a></li>
@@ -71,7 +71,7 @@ export default function App() {
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="Caja.html">Caja</a>
+          <a class="nav-link" href="#">Caja</a>
 
           <ul id="desplegar">
             <li><a href="">Apertura de turno</a></li>
@@ -82,7 +82,7 @@ export default function App() {
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="Facturas.html">Facturas</a>
+          <a class="nav-link" href="#">Facturas</a>
 
           <ul id="desplegar">
             <li><a href="">Series de Facturas</a></li>
@@ -92,7 +92,7 @@ export default function App() {
           </ul>
         </li>
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="Gastos.html">Gastos</a>
+          <a class="nav-link" href="">Gastos</a>
 
           <ul id="desplegar">
             <li><a href="">Gastos Generales</a></li>
@@ -123,7 +123,7 @@ export default function App() {
         </li>
 
         <li id="item" class="nav-item active">
-          <a class="nav-link" href="RG.html">RG</a>
+          <a class="nav-link" href="#">RG</a>
 
           <ul id="desplegar">
             <li><a href="">Ver Resumen</a></li>
@@ -134,7 +134,7 @@ export default function App() {
         </li>
 
         <li class="nav-item active">
-          <a class="nav-link" href="Configuración.html">Configuración</a>
+          <a class="nav-link" href="#">Configuración</a>
         </li>
 
         <li class="nav-item">

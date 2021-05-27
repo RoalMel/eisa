@@ -148,7 +148,7 @@ const Ingreso = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td scope="row" data-label="CANT.">1</td>
+                  <td  data-label="CANT.">1</td>
                   <td data-label="PRODUCTO">Ventana corrediza serie 80 </td>
                   <td data-label="DESCRIPCION">Instalar ventanta segun ubicación del cliente</td>
                   <td data-label="ANCHO">2.45</td>
@@ -158,7 +158,7 @@ const Ingreso = () => {
                   <td data-label="TOTAL">4647.00</td>
                 </tr>
                 <tr>
-                  <td scope="row" data-label="CANT.">1</td>
+                  <td  data-label="CANT.">1</td>
                   <td data-label="PRODUCTO">Ventana corrediza serie 80 </td>
                   <td data-label="DESCRIPCION">Instalar ventanta segun ubicación del cliente</td>
                   <td data-label="ANCHO">2.45</td>
@@ -168,7 +168,7 @@ const Ingreso = () => {
                   <td data-label="TOTAL">4647.00</td>
                 </tr>
                 <tr>
-                  <td scope="row" data-label="CANT.">1</td>
+                  <td  data-label="CANT.">1</td>
                   <td data-label="PRODUCTO">Ventana corrediza serie 80 </td>
                   <td data-label="DESCRIPCION">Instalar ventanta segun ubicación del cliente</td>
                   <td data-label="ANCHO">2.45</td>

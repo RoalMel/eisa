@@ -101,7 +101,7 @@ const Vercot = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td scope="row" data-label="NUM.">1</td>
+                  <td  data-label="NUM.">1</td>
                   <td data-label="FECHA">02/05/2021 </td>
                   <td data-label="NOMBRE">Juan Gomez</td>
                   <td data-label="VALOR">Q. 200.00</td>
@@ -110,7 +110,7 @@ const Vercot = () => {
                  
                 </tr>
                 <tr>
-                <td scope="row" data-label="NUM.">2</td>
+                <td  data-label="NUM.">2</td>
                   <td data-label="FECHA">02/05/2021 </td>
                   <td data-label="NOMBRE">Juan Gomez</td>
                   <td data-label="VALOR">Q. 200.00</td>
@@ -119,7 +119,7 @@ const Vercot = () => {
                  
                 </tr>
                 <tr>
-                <td scope="row" data-label="NUM.">3</td>
+                <td  data-label="NUM.">3</td>
                   <td data-label="FECHA">02/05/2021 </td>
                   <td data-label="NOMBRE">Juan Gomez</td>
                   <td data-label="VALOR">Q. 200.00</td>
