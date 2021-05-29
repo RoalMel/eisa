@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Ingreso.css'
+
 
 
 const Ingreso = () => {
 
+  const [ancho, setAncho] = useState (0)
+  const [largo, setLargo] = useState (0)
+  const [cant, setCant] = useState (0)
 
 
   return (
@@ -92,11 +96,11 @@ const Ingreso = () => {
         <div className='col-sm-12 col-md-6 col-xl-7 contenedor6'>
 
           <label for="Ancho" className="letrame">Ancho Mts.</label>
-          <input type="decimal" className="letram" id="Ancho"></input>
+          <input type="decimal" value={ancho} onChange={(e) => setAncho(e.target.value)} className="letram" id="Ancho"></input>
           <label for="Largo" className="letrame1" id="largo1">Largo Mts.</label>
-          <input type="decimal" className="letram" id="Largo"></input>
-          <label for="Cantidad" className="letracant">Cant.</label>
-          <input type="integer" className="letram" id="Cantidad"></input><br />
+          <input type="decimal" value={largo} onChange={(e) => setLargo(e.target.value)} className="letram" id="Largo"></input>
+          <label for="Cantidad"  className="letracant">Cant.</label>
+          <input type="integer" value={cant} onChange={(e) => setCant(e.target.value)} className="letram" id="Cantidad"></input><br />
 
 
         </div>

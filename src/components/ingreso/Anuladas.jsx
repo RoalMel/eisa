@@ -1,7 +1,7 @@
 import React from 'react'
 import './Vercot.css'
 
-const Enproceso = () => {
+const Anuladas = () => {
 
   return (
 
@@ -11,7 +11,7 @@ const Enproceso = () => {
 
         <div className='col-sm-12 col-md-8 col-xl-6 vercontenedor1' >
           <br />
-          <label for="" id="vercotizaciones" className="verletra1">En Proceso</label>
+          <label for="" id="vercotizaciones" className="verletra1">Anuladas</label>
 
           <label for="" id="vercotizaciones" className="verletra1">A Cotizacion</label>
           <button type="button" className="verletra2"><a href="/a">Ir</a></button>
@@ -72,29 +72,7 @@ const Enproceso = () => {
             </div>
           </div>
 
-          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Que desea hacer</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  Elija una opción
-            </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-info" data-dismiss="modal">Anular</button>
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Finalizar</button>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
+          
 
         </div>
 
@@ -126,9 +104,7 @@ const Enproceso = () => {
                   <td data-label="FECHA INICIAL">02/05/2021 </td>
                   <td data-label="FECHA A ENTREGAR">15/05/2021</td>
                   <td data-label="NOMBRE">Juan Gomez</td>
-                  <td data-label=""><button type="button" className="verletra9" data-toggle="modal" data-target="#exampleModal1" id="Aplicar" >
-                    Pendiente Entrega
-          </button></td>
+                  <td data-label="Estado">Anulada</td>
                   <td data-label=""> <button type="button" className="verletra9" data-toggle="modal" data-target="#exampleModal" id="Aplicar" >
                     Ver Orden de Trabajo
           </button></td>
@@ -139,9 +115,7 @@ const Enproceso = () => {
                   <td data-label="FECHA INICIAL">02/05/2021 </td>
                   <td data-label="FECHA A ENTREGAR">15/05/2021</td>
                   <td data-label="NOMBRE">Juan Gomez</td>
-                  <td data-label=""><button type="button" className="verletra9" data-toggle="modal" data-target="#exampleModal1" id="Aplicar" >
-                    Pendiente Entrega
-          </button></td>
+                  <td data-label="Estado">Anulada</td>
                   <td data-label=""> <button type="button" className="verletra9" data-toggle="modal" data-target="#exampleModal" id="Aplicar" >
                     Ver Orden de Trabajo
           </button></td>
@@ -152,9 +126,7 @@ const Enproceso = () => {
                   <td data-label="FECHA INICIAL">02/05/2021 </td>
                   <td data-label="FECHA A ENTREGAR">15/05/2021</td>
                   <td data-label="NOMBRE">Juan Gomez</td>
-                  <td data-label=""><button type="button" className="verletra9" data-toggle="modal" data-target="#exampleModal1" id="Aplicar" >
-                    Pendiente Entrega
-          </button></td>
+                  <td data-label="Estado">Anulada</td>
                   <td data-label=""> <button type="button" className="verletra9" data-toggle="modal" data-target="#exampleModal" id="Aplicar" >
                     Ver Orden de Trabajo
           </button></td>
@@ -201,4 +173,4 @@ const Enproceso = () => {
 
 
 
-export default Enproceso
+export default Anuladas

@@ -9,6 +9,10 @@ import Img from "./components/ingreso/Img";
 import Ingreso from "./components/ingreso/Ingreso";
 import Vercot from "./components/ingreso/Vercot";
 import Enproceso from "./components/ingreso/Enproceso";
+import Anuladas from "./components/ingreso/Anuladas";
+import Finalizadas from "./components/ingreso/Finalizadas";
+import Todas from "./components/ingreso/Todas";
+import Genererarnuevaorden from "./components/ingreso/Generarnuevaorden";
 import './App.css'
 import './components/nav/Nav1.css'
 import Logo from "./components/ingreso/Logo";
@@ -41,11 +45,10 @@ export default function App() {
 
           <ul id="desplegar">
             <li><Link to="/enproceso">En Proceso</Link></li>
-            <li><a href="/a">Finalizadas</a></li>
-            <li><a href="/a">Anuladas</a></li>
-            <li><a href="/a">Todas</a></li>
-            <li><a href="/a">Generar nueva orden</a></li>
-
+            <li><Link to="/finalizadas">Finalizadas</Link></li>
+            <li><Link to="/anuladas">Anuladas</Link></li>
+            <li><Link to="/todas">Todas</Link></li>
+            <li><Link to="/generarnuevaorden">Generar nueva orden</Link></li>
           </ul>
         </li>
         <li id="item" class="nav-item active">
@@ -168,7 +171,22 @@ export default function App() {
           <Route path="/enproceso">
             <Img />
             <Enproceso />
-
+          </Route>
+          <Route path="/anuladas">
+            <Img />
+            <Anuladas />
+          </Route>
+          <Route path="/finalizadas">
+            <Img />
+            <Finalizadas />
+          </Route>
+          <Route path="/todas">
+            <Img />
+            <Todas />
+          </Route>
+          <Route path="/generarnuevaorden">
+            <Img />
+            <Genererarnuevaorden />
           </Route>
 
         </Switch>

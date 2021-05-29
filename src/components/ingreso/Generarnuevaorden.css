@@ -1,0 +1,1196 @@
+/**{
+    position: relative;
+}*/
+/*Clases en contenedor 1*/
+.todo{
+
+    overflow: hidden;
+    
+    }
+    
+    @media screen and (min-width: 992px ) {
+        
+    
+    
+    .gencontenedor1{
+    
+        background-color: rgb(31, 219, 65);
+    
+    }
+    .letra{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 12%;
+        font-weight: 605;
+        
+        
+    }
+    .letratipo{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 12%;
+        font-weight: 605;
+        margin-left: 1%;
+    
+    }
+    
+    
+    
+    
+    
+    .cuadrodedialogo{
+        font-size: 15px;
+        color:rgb(0, 8, 12);
+       background: white;
+        width: 20%;
+        border: 3.5px double rgb(12, 97, 167);
+        font-weight: 605;
+        margin-left: 1%;
+    }
+    
+    .cotizacion1{
+        font-size: 15px;
+        color:rgb(31, 78, 120);
+       background: white;
+        width: 20%;
+        border: 3.5px double rgb(12, 97, 167);
+        font-weight: 605;
+        margin-left: 1%;
+       }
+    
+    
+    .cuadrodedialogofecha{
+        font-size: 15px;
+        color:rgb(0, 8, 12);
+       background: white;
+        width: 20%;
+        border: 3.5px double rgb(12, 97, 167);
+        font-weight: 605;
+        margin-left: 1%;
+    
+    
+    }
+    
+    .cuadrodedialogoproduct{
+        font-size: 15px;
+        color:rgb(0, 8, 12);
+       background: white;
+        width: 40%;
+        border: 3.5px double rgb(12, 97, 167);
+        font-weight: 605;
+        margin-left: 9%;
+    }
+    
+    #Habilitado1{
+        font-size: 15px;
+        color:rgb(31, 78, 120);
+       background: white;
+        width: 16%;
+        border: 3.5px double rgb(12, 97, 167);
+        font-weight: 605;
+        margin-left: 1%;
+       }
+       
+      #Habilitado{
+         margin-left: 1%;
+         
+      }
+    
+    }
+    
+    /*(2)*/
+    /**/
+    
+    @media screen and (max-width: 992px ) {
+        
+    
+    
+        .gencontenedor1{
+        
+            background-color: rgb(37, 235, 47);
+        
+        }
+        .letra{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 12%;
+            font-weight: 605;
+            
+            
+        }
+        .letratipo{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 12%;
+            font-weight: 605;
+            margin-left: 1%;
+        
+        }
+        
+        
+        
+        
+        
+        .cuadrodedialogo{
+            font-size: 15px;
+            color:rgb(0, 8, 12);
+           background: white;
+            width: 20%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 1%;
+        }
+        
+        .cotizacion1{
+            font-size: 15px;
+            color:rgb(31, 78, 120);
+           background: white;
+            width: 20%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 1%;
+           }
+        
+        
+        .cuadrodedialogofecha{
+            font-size: 15px;
+            color:rgb(0, 8, 12);
+           background: white;
+            width: 20%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 1%;
+        
+        
+        }
+        
+        .cuadrodedialogoproduct{
+            font-size: 15px;
+            color:rgb(0, 8, 12);
+           background: white;
+            width: 40%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 9%;
+        }
+        
+        #Habilitado1{
+            font-size: 15px;
+            color:rgb(31, 78, 120);
+           background: white;
+            width: 16%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 1%;
+           }
+           
+          #Habilitado{
+             margin-left: 1%;
+             
+          }
+        
+        }
+    
+        /**/
+    
+    
+    
+    /*(3)*/
+    
+    @media screen and (max-width: 663px ) {
+        
+    
+    
+        .gencontenedor1{
+        
+            background-color: rgb(38, 224, 78);
+        
+        }
+        .letra{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 60px;
+            font-weight: 605;
+            
+            
+        }
+        .letratipo{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 13%;
+            font-weight: 605;
+            margin-left: 1%;
+        
+        }
+        
+        
+        
+        
+        
+        .cuadrodedialogo{
+            font-size: 15px;
+            color:rgb(0, 8, 12);
+           background: white;
+            width: 20%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 1%;
+        }
+        
+        .cotizacion1{
+            font-size: 15px;
+            color:rgb(31, 78, 120);
+           background: white;
+            width: 29%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 1%;
+           }
+        
+        
+        .cuadrodedialogofecha{
+            font-size: 15px;
+            color:rgb(0, 8, 12);
+           background: white;
+            width: 20%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 1%;
+        
+        
+        }
+        
+        .cuadrodedialogoproduct{
+            font-size: 15px;
+            color:rgb(0, 8, 12);
+           background: white;
+            width: 40%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left: 6%;
+        }
+        
+        #Habilitado1{
+            font-size: 15px;
+            color:rgb(31, 78, 120);
+           background: rgb(216, 213, 213);
+            width: 24%;
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            margin-left:auto;
+           }
+           
+          #Habilitado{
+             margin-left: 1%;
+             
+          }
+        
+        }
+    
+    
+    
+    
+    
+    
+    /*Clases en contenedor 2*/
+    
+    
+    
+    .gencontenedor2{
+    
+        background-color:rgb(42, 190, 171);
+    }
+    
+    /*Clases en contenedor 3*/
+    
+    .gencontenedor3{
+    
+        background-color:rgb(70, 28, 221);
+    }
+    
+    #cliente{
+    
+        width: 82%;
+        margin-left: 1%;
+        border: 2px solid rgb(113, 142, 167);
+    }
+    
+    #cotizacion2{
+    
+        width: 82%;
+        margin-left: 1%;
+        border: 2px solid rgb(113, 142, 167);
+    
+    }
+    
+    .letracotizacion{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 12%;
+        font-weight: 605;
+        
+        
+    }
+    
+    @media screen and (max-width: 860px ){
+    
+        .letracotizacion{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 13.5%;
+            font-weight: 605;
+            
+            
+        }
+    
+    
+        #cotizacion2{
+    
+            width: 72%;
+            margin-left: 1%;
+            border: 2px solid rgb(113, 142, 167);
+        
+        }
+        
+        #cliente{
+    
+            width: 80%;
+            margin-left: 1%;
+            border: 2px solid rgb(113, 142, 167);
+        }
+    
+        
+    }
+    
+    
+    
+    
+    @media screen and (max-width: 663px ){
+    
+        .letracotizacion{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 26%;
+            font-weight: 605;
+            
+            
+        }
+    
+    
+        #cotizacion2{
+    
+            width: 72%;
+            margin-left: 1%;
+            border: 2px solid rgb(113, 142, 167);
+        
+        }
+        
+        #cliente{
+    
+            width: 80%;
+            margin-left: 1%;
+            border: 2px solid rgb(113, 142, 167);
+        }
+    
+        
+    }
+    
+    /*Clases en contenedor 4*/
+    
+    
+    
+    .gencontenedor4{
+    
+        background-color:rgb(192, 221, 25);
+    }
+    
+    
+    
+    
+    /*Clases en contenedor 5*/
+    
+    
+    
+    .genacontenedor5{
+    
+        background-color:rgb(13, 13, 14)
+    
+        
+    }
+    .letrabuscarproducto{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 24%;
+        font-weight: 605;
+    
+    
+    }
+    
+    #Buscar{
+        font-size: 15px;
+        color:rgb(0, 5, 8);
+       background: white;
+     
+        border: 3.5px double rgb(12, 97, 167);
+        font-weight: 605;
+        width: 75%;
+        margin-left: 1%;
+    }
+    @media screen and (max-width: 1213px ){
+    
+        .letrabuscarproducto{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 35%;
+            font-weight: 605;
+        
+        
+        }
+        
+        #Buscar{
+            font-size: 15px;
+            color:rgb(0, 5, 8);
+           background: white;
+         
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            width: 63%;
+            margin-left: 1%;
+        }
+    }
+    
+    
+    @media screen and (max-width: 663px ){
+    
+        .letrabuscarproducto{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 35%;
+            font-weight: 605;
+        
+        
+        }
+        
+        #Buscar{
+            font-size: 15px;
+            color:rgb(0, 5, 8);
+           background: white;
+         
+            border: 3.5px double rgb(12, 97, 167);
+            font-weight: 605;
+            width: 63%;
+            margin-left: 1%;
+        }
+        
+      
+        
+    
+    
+    }
+    
+    /*Clases en contenedor 6*/
+    
+    
+    
+    .gencontenedor6{
+    
+        background-color:rgb(231, 90, 47);
+        
+    
+    }
+    
+    .letrame{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 14%;
+        font-weight: 605;
+        margin-left: 2%;
+        
+        
+    }
+    
+    .letrame1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 13%;
+        font-weight: 605;
+        margin-left: 1%;
+        
+    }
+    
+    .letram{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 12%;
+        font-weight: 605;
+        margin-left: 1%;
+        
+        
+    }
+    
+    
+    .letracant{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 6%;
+        font-weight: 605;
+        margin-left: 1%;
+    
+    
+    }
+    
+    @media screen and (max-width: 1199px ){
+    
+        .letrame{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 20%;
+            font-weight: 605;
+            
+            
+        }
+    
+        .letrame1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 19%;
+            font-weight: 605;
+            margin-left: 0%;
+            
+        }
+    
+        .letram{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 15%;
+            font-weight: 605;
+            margin-left: 1%;
+            
+            
+        }
+        
+        .letracant{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 10%;
+            font-weight: 605;
+        
+        
+        }
+        
+    
+    }
+    
+    @media screen and (max-width: 970px ){
+    
+        .letrame{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 25%;
+            font-weight: 605;
+            margin-left: -3%;
+            
+        }
+    
+        .letrame1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 24%;
+            font-weight: 605;
+            margin-left: -3%;
+            
+        }
+    
+    
+        .letram{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 13.5%;
+            font-weight: 605;
+            margin-left: 0%;
+            
+            
+            
+        }
+        
+        .letracant{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 12%;
+            font-weight: 605;
+        
+        
+        }
+       
+        
+        #largo1{
+            margin-left: 0%;
+        }
+    
+    }
+    
+    
+    @media screen and (max-width: 767px ){
+    
+        .letrame{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 15%;
+            font-weight: 605;
+            margin-left: 1%;
+            
+        }
+    
+        .letrame1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 15%;
+            font-weight: 605;
+            margin-left: 2%;
+            
+        }
+    
+    
+        .letram{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 15.5%;
+            font-weight: 605;
+            margin-left: 2%;
+            
+            
+            
+        }
+        
+        .letracant{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 9%;
+            font-weight: 605;
+        
+        
+        }
+       
+        
+        #largo1{
+            margin-left: 0%;
+        }
+    
+    }
+    
+    
+    
+    
+    @media screen and (max-width: 660px ){
+    
+        .letrame{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 25%;
+            font-weight: 605;
+            margin-left: 1%;
+            
+            
+        }
+    
+        .letrame1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 25%;
+            font-weight: 605;
+            margin-left: 1%;
+            
+            
+        }
+    
+        .letram{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 23%;
+            font-weight: 605;
+            margin-left: 1%;
+            
+            
+        }
+        
+        .letracant{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 15%;
+            font-weight: 605;
+        
+        
+        }
+        
+    
+    }
+    
+    @media screen and (max-width: 330px ){
+    
+        .letrame{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 28%;
+            font-weight: 605;
+            
+            
+        }
+    
+        .letrame1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 28%;
+            font-weight: 605;
+            margin-left: 1%;
+            
+            
+        }
+    
+        .letram{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 19%;
+            font-weight: 605;
+            margin-left: 2%;
+            
+            
+        }
+        
+        .letracant{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 15%;
+            font-weight: 605;
+        
+        
+        }
+        
+    
+    }
+    
+    
+    /*Clases en contenedor 7*/
+    
+    
+    
+    .gencontenedor7{
+    
+        background-color:rgb(233, 57, 224);
+    }
+    
+    .letradescripcion1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 12%;
+        font-weight: 605;
+        
+        
+    }
+    
+    
+    
+    .letradescripcion{
+    
+        width: 82%;
+        margin-left: 1%;
+        border: 2px solid rgb(113, 142, 167);
+    
+    }
+    
+    @media screen and (max-width: 1199px ){
+    
+        .letradescripcion1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 21.5%;
+            font-weight: 605;
+            
+            
+        }
+    
+        .letradescripcion{
+    
+            width: 77.5%;
+            margin-left: 1%;
+            border: 2px solid rgb(113, 142, 167);
+        
+        }
+    
+    }
+    
+    @media screen and (max-width: 767px ){
+    
+        .letradescripcion1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 29%;
+            font-weight: 605;
+            
+            
+        }
+    
+    
+        .letradescripcion{
+    
+            width: 70%;
+            margin-left: 1%;
+            border: 2px solid rgb(113, 142, 167);
+        
+        }
+        
+        
+    
+        
+    }
+    
+    
+    
+    /*Clases en contenedor 8*/
+    
+    
+    
+    
+    .gencontenedor8{
+    
+        background-color:rgb(84, 88, 88);
+    }
+    
+    .letratotal{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 23%;
+        font-weight: 605;
+        margin-left: 0%;
+        
+    }
+    
+    .letratotal1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 25%;
+        font-weight: 605;
+        margin-left: 3%;
+        
+    }
+    
+    .letratotal2{
+    
+        
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 13%;
+            font-weight: 605;
+            margin-left: 7%;
+            
+            
+        
+    
+    
+    }
+    
+    .letratota2{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 23%;
+        font-weight: 605;
+        float: right;
+        margin-top: -39px;
+        
+        
+    }
+    
+    @media screen and (max-width: 1050px ) {
+    
+        .letratotal{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 30%;
+            font-weight: 605;
+            margin-left: -5%;
+            
+            text-align: center;
+            
+        }
+        
+        .letratotal1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 30%;
+            font-weight: 605;
+            margin-left: 0%;
+            
+            text-align: center;
+        }
+        
+        .letratotal2{
+        
+            
+                color: rgb(31, 78, 120);
+                background: white;
+                border: 3.5px double rgb(12, 97, 167);
+                width: 19%;
+                font-weight: 605;
+                margin-left: 0%;
+                font-size: 18px;
+                
+                
+                
+            
+        
+        
+        }
+        
+        .letratota2{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 26%;
+            font-weight: 605;
+            float: right;
+            margin-top: -41px;
+            
+            text-align: center;
+            
+            
+        }
+    
+    
+    
+    }
+    
+    @media screen and (max-width: 767px ) {
+    
+        .letratotal{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 24%;
+            font-weight: 605;
+            margin-left: 0%;
+            text-align: center;
+            font-size: 18px;
+            
+        }
+        
+        .letratotal1{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 25%;
+            font-weight: 605;
+            margin-left: 3%;
+    
+            
+        }
+        
+        .letratotal2{
+        
+            
+                color: rgb(31, 78, 120);
+                background: white;
+                border: 3.5px double rgb(12, 97, 167);
+                width: 15%;
+                font-weight: 605;
+                margin-left: 6%;
+                text-align: center;
+                
+                
+            
+        
+        
+        }
+        
+        .letratota2{
+            color: rgb(31, 78, 120);
+            background: white;
+            border: 3.5px double rgb(12, 97, 167);
+            width: 23%;
+            font-weight: 605;
+            float: right;
+            margin-top: -41px;
+            font-size: 18px ;
+            text-align: center;
+            
+            
+            
+        }
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    /*Clases en contenedor 9*/
+    
+    
+    
+    .gencontenedor9{
+    
+        background-color:rgb(149, 61, 184);
+    }
+    
+    
+    /*Clases en contenedor 10*/
+    
+    .gencontenedor10{
+    
+        background-color:rgb(16, 82, 46);
+    }
+    
+    
+    
+    .todo { 
+    
+    z-index: 10;
+    
+    }
+    
+    /*Clases de tabla*/
+    
+    .tabla{
+    
+    width: 98% ;
+    margin: auto;
+     border: 2px solid rgb(8, 42, 114);
+    border-collapse: collapse;
+    
+    padding: 0%;
+    /*table-layout:fixed ;*/
+    
+    
+    }
+    .tabla1 caption{
+    
+        font-size: 28px;
+        text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+    
+    }
+    
+    .tabla tr {
+    
+        background-color: azure;
+        border: 1px solid rgb(162, 176, 216);
+    }
+    
+    .tabla th, tabla td {
+    
+        font-size: 16px;
+        padding: 6px;
+        text-align: center;
+        
+    }
+     .tabla thead th {
+    text-transform: uppercase;
+    background-color: rgb(149, 167, 199);
+    text-align: left;
+    
+     }
+     .tabla tbody tr:hover{
+    
+        background-color: rgb(225, 227, 231);
+     }
+    
+     @media screen and (max-width: 647px ){
+    
+        .tabla{
+    border: 0px;
+    
+        }
+    
+        .tabla thead {
+    
+            display: none;
+        }
+    
+    .tabla tr {
+    
+        margin-bottom: 8px;
+        border-bottom: 3px solid gray;
+        display: block;
+    }
+    .tabla th, .tabla td {
+    font-size: 12px;
+    
+    }
+    
+    .tabla td {
+    
+       display: block; 
+       border-bottom: 1px solid grey;
+       text-align: right;
+    }
+    
+    .tabla td:last-child {
+    
+        border-bottom: 0px;
+    }
+    
+    .tabla td::before {
+    
+        content: attr(data-label);
+        font-weight: bold;
+        float: left;
+    }
+    
+    
+    
+    
+    
+     }
+    
+    
+    
+    
+    
+    

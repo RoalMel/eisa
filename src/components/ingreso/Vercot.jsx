@@ -11,10 +11,10 @@ const Vercot = () => {
 
         <div className='col-sm-12 col-md-8 col-xl-6 vercontenedor1' >
         <br />
-          <label for="" id="vercotizaciones" className="verletra1">Cotizáciones</label>
-          <button type="button" className="verletra2"><a href="/a">Ir</a></button>
-          <label for="" id="vercotizaciones" className="verletra1">Nueva Orden</label>
-          <button type="button" className="verletra2"><a href="/a">Ir</a></button>
+          <label for="verir" id="vercotizaciones" className="verletra1">Cotizáciones</label>
+          <button type="button" className="verletra2" id="verir"><a href="/a">Ir</a></button>
+          <label for="verir1" id="vercotizaciones" className="verletra1" >Nueva Orden</label>
+          <button type="button" className="verletra2"><a href="/a" id="verir1">Ir</a></button>
           <br />
         </div>
 
@@ -30,7 +30,7 @@ const Vercot = () => {
             <label for="Fecha" id="margen" className="verletra">Del</label>
             <input type="datetime" className="vercuadrodedialogo" id="Fecha" ></input>
             <label for="calendario" className="verletra" id="calendario">al</label>
-            <input type="datetime" className="vercuadrodedialogo" name="month" ></input> <br />
+            <input type="datetime" className="vercuadrodedialogo" name="month" ></input> 
             <input type="text" className="vercuadrodedialogo1 " placeholder="Nombre del cliente" id="ver_nombre" ></input>
           </div>
 
@@ -43,8 +43,8 @@ const Vercot = () => {
           <div className="vercontenedor31">
 
             <button type="button" className="verletra3" id="filtro">Filtrar</button>
-            <button type="button" className="verletra4" id="mostrar">Cot. Aplicadas</button>
-            <button type="button" className="verletra5" id="mostrar" >Mostrar Todo</button> <br />
+            <button type="button" className="verletra4" id="mostrar">Cot. Aplic.</button>
+            <button type="button" className="verletra5" id="mostrar" >Most. Todo</button> <br />
 
             <button type="button" className="verletra6" id="ver_buscar">Buscar</button>
             <button type="button" className="verletra7" data-toggle="modal" data-target="#exampleModal" id="Aplicar" >
