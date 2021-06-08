@@ -5,14 +5,39 @@ import './Ingreso.css'
 
 const Ingreso = () => {
 
-  const [ancho, setAncho] = useState (0)
-  const [largo, setLargo] = useState (0)
-  const [cant, setCant] = useState (0)
+  const [ancho, setAncho] = useState(0)
+  const [largo, setLargo] = useState(0)
+  const [cant, setCant] = useState(0)
+  const [valor, setValor] = useState(0)
+  const [total, setTotal] = useState(0)
+  const [fabricacion, setFabricacion] = useState("")
+
+  const agregar = (e) => {
+    e.preventDefault()
+    var resultado = cant * valor
+    setTotal(resultado)
+
+
+  }
+
+  
+
+  if (fabricacion === "ConMedidas" && total !== 0 && ancho !== 0 && largo !== 0 && cant !== 0 && valor !== 0 ) {
+
+
+    var resultado = ancho * largo * cant * valor
+    setTotal(resultado)
+
+  } else if (fabricacion === "Sin Medidas" && total !== 0 && ancho !== 0 && largo !== 0 && cant !== 0 && valor !== 0 ) {
+    console.log("Llego el mensaje")
+    agregar()
+  }
+
 
 
   return (
 
-    <form className="todo fluid ">
+    <form className="todo fluid " onSubmit={agregar}>
 
 
 
@@ -29,7 +54,8 @@ const Ingreso = () => {
           <label for="fecha" className="letra">Fecha</label>
           <input type="datetime" id="fecha" className="cuadrodedialogofecha"></input>
           <label for="Con/Sinmedidas" className="letratipo">Tipo</label>
-          <select name="" className="cuadrodedialogoproduct" id="Con/Sinmedidas">
+          <select name="" value={fabricacion} onChange={(e) => setFabricacion(e.target.value)} className="cuadrodedialogoproduct" id="Con/Sinmedidas">
+            <option value="">Seleccione una opción</option>
             <option value="ConMedidas">Fabricación</option>
             <option value="Sin Medidas">Productos y/o Servicios</option>
           </select>
@@ -68,7 +94,12 @@ const Ingreso = () => {
         </div>
 
         <div className='col-sm-12 col-md-2 col-xl-4 contenedor4'>
+          <br />
+          <br />
+          <br />
 
+          <label for="Valor" className="letramev1">Valor</label>
+          <input type="decimal" value={valor} onChange={(e) => setValor(e.target.value)} className="letramv1" id="Valor"></input><br />
 
         </div>
 
@@ -99,9 +130,10 @@ const Ingreso = () => {
           <input type="decimal" value={ancho} onChange={(e) => setAncho(e.target.value)} className="letram" id="Ancho"></input>
           <label for="Largo" className="letrame1" id="largo1">Largo Mts.</label>
           <input type="decimal" value={largo} onChange={(e) => setLargo(e.target.value)} className="letram" id="Largo"></input>
-          <label for="Cantidad"  className="letracant">Cant.</label>
-          <input type="integer" value={cant} onChange={(e) => setCant(e.target.value)} className="letram" id="Cantidad"></input><br />
-
+          <label for="Cantidad" className="letracant">Cant.</label>
+          <input type="integer" value={cant} onChange={(e) => setCant(e.target.value)} className="letram" id="Cantidad"></input>
+          <label for="Valor" className="letramev">Valor</label>
+          <input type="decimal" value={valor} onChange={(e) => setValor(e.target.value)} className="letramv" id="Valor1"></input><br />
 
         </div>
 
@@ -120,9 +152,9 @@ const Ingreso = () => {
 
         <div className='col-sm-12 col-md-5 col-xl-5 contenedor8'>
 
-          <input type="submit" className="letratotal" value="Insertar" id="Insertar"></input>
+          <input type="submit" className="letratotal" value="Insertar" id="Insertar" ></input>
           <label for="letratotal1" className="letratotal2">Total</label>
-          <input type="number" className="letratotal1"></input>
+          <input type="number" value={total} onChange={(e) => setTotal(e.target.value)} className="letratotal1"></input>
           <div >
 
             <button type="button" data-toggle="modal" data-target="#exampleModal" id="Guardar" className="letratota2">
@@ -152,7 +184,7 @@ const Ingreso = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td  data-label="CANT.">1</td>
+                  <td data-label="CANT.">1</td>
                   <td data-label="PRODUCTO">Ventana corrediza serie 80 </td>
                   <td data-label="DESCRIPCION">Instalar ventanta segun ubicación del cliente</td>
                   <td data-label="ANCHO">2.45</td>
@@ -162,7 +194,7 @@ const Ingreso = () => {
                   <td data-label="TOTAL">4647.00</td>
                 </tr>
                 <tr>
-                  <td  data-label="CANT.">1</td>
+                  <td data-label="CANT.">1</td>
                   <td data-label="PRODUCTO">Ventana corrediza serie 80 </td>
                   <td data-label="DESCRIPCION">Instalar ventanta segun ubicación del cliente</td>
                   <td data-label="ANCHO">2.45</td>
@@ -172,7 +204,7 @@ const Ingreso = () => {
                   <td data-label="TOTAL">4647.00</td>
                 </tr>
                 <tr>
-                  <td  data-label="CANT.">1</td>
+                  <td data-label="CANT.">1</td>
                   <td data-label="PRODUCTO">Ventana corrediza serie 80 </td>
                   <td data-label="DESCRIPCION">Instalar ventanta segun ubicación del cliente</td>
                   <td data-label="ANCHO">2.45</td>
@@ -197,19 +229,19 @@ const Ingreso = () => {
 
         </div>
 
-     
 
 
-      <div className='col-sm-12 col-md-5 col-xl-5 contenedor11'>
 
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-          Guardar
+        <div className='col-sm-12 col-md-5 col-xl-5 contenedor11'>
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Guardar
       </button>
 
-        <label for="letratotal1" className="letratotal2">Total</label>
-        <input type="number" className="letratotal1"></input>
+          <label for="letratotal1" className="letratotal2">Total</label>
+          <input type="number" className="letratotal1"></input>
 
-      </div>
+        </div>
       </div >
 
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

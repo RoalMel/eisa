@@ -406,15 +406,212 @@ overflow: hidden;
 
 /*Clases en contenedor 4*/
 
-
-
 .contenedor4{
 
     background-color:rgb(224, 240, 240);
+   
+}
+
+.letramv1{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 28%;
+    font-weight: 705;
+    margin-left: 5%;
+    display: none;
+    
+    
+    
+}
+
+.letramev1{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    
+    font-weight: 705;
+    margin-left: 0%;
+    display: none;
+    
+}
+
+@media screen and (max-width: 1199px ){
+
+    .contenedor4{
+
+        background-color:rgb(224, 240, 240);
+       
+    } 
+
+    .letramv1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 55%;
+        font-weight: 705;
+        margin-left: 5%;
+        display: inline;
+        
+        
+        
+    }
+
+    .letramev1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        
+        font-weight: 705;
+        margin-left: -5%;
+        display: inline;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 970px ){
+
+    .contenedor4{
+
+        background-color:rgb(224, 240, 240);
+      
+    }
+
+    .letramv1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 60%;
+        font-weight: 705;
+        margin-left: 2%;
+        display: inline;
+        
+        
+        
+    }
+
+    .letramev1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 50%;
+        font-weight: 705;
+        margin-left: -10%;
+        display: inline;
+        
+    }
+
+
 }
 
 
+@media screen and (max-width: 767px ){
 
+    .contenedor4{
+
+        background-color:rgb(224, 240, 240);
+        
+    }
+
+    .letramev1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        
+        font-weight: 705;
+        margin-left: 1%;
+        display: inline;
+
+    }
+
+    .letramv1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 15.5%;
+        font-weight: 705;
+        margin-left: 2%;
+        display: inline;
+        
+        
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 660px ){
+
+    .contenedor4{
+
+        background-color:rgb(224, 240, 240);
+        display: none;
+    }
+
+
+    .letramev1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 13%;
+        font-weight: 605;
+        margin-left: 2%;
+        display: none;
+        
+        
+    }
+
+    .letramv1{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 23%;
+        font-weight: 605;
+        margin-left: 1%;
+        display: none;
+        
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 330px ){
+
+    .contenedor4{
+
+    background-color:rgb(224, 240, 240);
+    display: none;
+}
+
+.letramev1{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 15%;
+    font-weight: 605;
+    margin-left: 2%;
+    display: none;
+    
+    
+}
+
+.letramv1{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 19%;
+    font-weight: 605;
+    margin-left: 2%;
+    display:none;     
+    
+}
+
+}
 
 /*Clases en contenedor 5*/
 
@@ -555,6 +752,30 @@ overflow: hidden;
 
 }
 
+.letramev{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 6.5%;
+    font-weight: 705;
+    margin-left: 2%;
+    
+    
+}
+
+.letramv{
+    color: rgb(31, 78, 120);
+    background: white;
+    border: 3.5px double rgb(12, 97, 167);
+    width: 12%;
+    font-weight: 705;
+    margin-left: 1%;
+    
+    
+}
+
+
+
 @media screen and (max-width: 1199px ){
 
     .letrame{
@@ -598,7 +819,29 @@ overflow: hidden;
     
     }
     
+    .letramev{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 20%;
+        font-weight: 605;
+        display: none;
+        
+        
+    }
 
+
+    .letramv{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 15%;
+        font-weight: 605;
+        margin-left: 1%;
+        display: none;
+        
+        
+    }
 }
 
 @media screen and (max-width: 970px ){
@@ -649,6 +892,30 @@ overflow: hidden;
     
     #largo1{
         margin-left: 0%;
+    }
+
+    .letramv{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 13.5%;
+        font-weight: 605;
+        margin-left: 0%;
+        display: none;
+        
+        
+        
+    }
+
+    .letramev{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 25%;
+        font-weight: 605;
+        margin-left: -3%;
+        display: none;
+        
     }
 
 }
@@ -704,6 +971,32 @@ overflow: hidden;
         margin-left: 0%;
     }
 
+    .letramev{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 15%;
+        font-weight: 605;
+        margin-left: 1%;
+        display: none;
+        
+    }
+
+
+
+    .letramv{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 15.5%;
+        font-weight: 605;
+        margin-left: 2%;
+        display: none;
+        
+        
+        
+    }
+
 }
 
 
@@ -754,7 +1047,29 @@ overflow: hidden;
     
     }
     
+    .letramev{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 13%;
+        font-weight: 705;
+        margin-left: 2%;
+        display: inline;
+        
+        
+    }
 
+    .letramv{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 23%;
+        font-weight: 705;
+        margin-left: 1%;
+        display: inline;
+        
+        
+    }
 }
 
 @media screen and (max-width: 330px ){
@@ -801,8 +1116,35 @@ overflow: hidden;
     
     }
     
+    .letramev{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 15%;
+        font-weight: 705;
+        margin-left: 2%;
+        display: inline;
+        
+        
+    }
+
+    .letramv{
+        color: rgb(31, 78, 120);
+        background: white;
+        border: 3.5px double rgb(12, 97, 167);
+        width: 19%;
+        font-weight: 705;
+        margin-left: 2%;
+        display:inline;     
+        
+    }
+
+    
 
 }
+
+
+
 
 
 /*Clases en contenedor 7*/
